@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+input {
+    box-sizing: border-box;
+    padding-left: 1%;
+
+    width: 45%;
+    height: 80px;
+
+    border: none;
+    border-radius: 5px;
+    margin: 2% 0;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+}
+
+#input_1 {
+    border: 3px solid #5C258D;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+select {
+    border: none;
+    box-sizing: border-box;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 15%;
+    height: 30px;
+    padding-left: 2%;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#select_1 {
+    border: 2px solid #5C258D;
+    margin-right: 5%;
+}
+
+#select_2 {
+    border: 2px solid #4389A2;
+}
+
+h3 {
+    font-family: 'Monoton', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+h1 {
+    font-family: 'Monoton', sans-serif;
+    color: #fff;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Monoton', sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
