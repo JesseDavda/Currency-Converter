@@ -47,9 +47,9 @@ select {
     border: none;
     box-sizing: border-box;
 
-    -webkit-appearance: none;
+    /* -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
+    appearance: none; */
 
     width: 15%;
     height: 30px;
