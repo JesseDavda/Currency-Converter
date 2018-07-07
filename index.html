@@ -2,36 +2,37 @@
     <head>
         <title>Currency Converter</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/styles.css" />
     </head>
 
     <body>
-        <h1>Currency Converter</h1>
+        <h1>CURRENCY CONVERTER</h1>
         <div>
             <h3>FROM:</h3>
             <select id="select_1">
-                <option>GBP</option>
-                <option>EUR</option>
-                <option>USD</option>
-                <option>AED</option>
-                <option>AUD</option>
-                <option>CAD</option>
+                <option value="GBP">British Pound (GBP)</option>
+                <option value="EUR">European Euro (EUR)</option>
+                <option value="USD">United States Dollar (USD)</option>
+                <option value="AED">Emirati Dirham (AED)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="CAD">Canadian Dollar (CAD)</option>
             </select>
             <h3>TO:</h3>
             <select id="select_2">
-                <option>GBP</option>
-                <option>EUR</option>
-                <option>USD</option>
-                <option>AED</option>
-                <option>AUD</option>
-                <option>CAD</option>
+                <option value="GBP">British Pound (GBP)</option>
+                <option value="EUR">European Euro (EUR)</option>
+                <option value="USD">United States Dollar (USD)</option>
+                <option value="AED">Emirati Dirham (AED)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="CAD">Canadian Dollar (CAD)</option>
             </select>
         </div>
-        <input type="text" id="input_1"></input>
+        <input type="text" id="input_1" placeholder="Amount To Convert"></input>
         <h2 id="value"></h2>
+        <div id="go">CALCULATE</div>
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="script.js"></script>
+        <script src="./Scripts/script.js"></script>
     </body>
 </html>
