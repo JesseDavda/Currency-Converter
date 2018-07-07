@@ -8,7 +8,14 @@ document.getElementById('go').onclick = () => {
     var value = document.getElementById('input_1').value;
     console.log(value);
 
-    axios.get(`https://www.currencyconverterapi.com/api/v5/convert?q=${from}_${to}&compact=ultra`).then(data => {
-        console.log(data);
+    axios.get(`https://free.currencyconverterapi.com/api/v5/convert?q=${from}_${to}`).then(body => {
+        console.log(body);
+        var exchange = from + "_" + to;
+        console.log(body.data.results);
+        var rate = body.data.results.exchange.val;
+
+        var exchanged_value = rate * value;
+
+        document.getElementById("value").innerHTML = `Amount: ${exchanged_value} ${to}`;
     });
 }
